@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- google fonts poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--  cursor follower html -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <div id="menu-full" class="menu-full">
+      <div class="menu-left">
+        <img src="logo.png" alt="" />
+        <h3>Follow Us</h3>
+        <div class="menu-social-links">
+          <a href=""><img src="linkedin.png" alt="" /></a>
+          <a href=""><img src="fb.png" alt="" /></a>
+          <a href=""><img src="twitter.png" alt="" /></a>
+          <a href=""><img src="inst.png" alt="" /></a>
+        </div>
+      </div>
+
+      <div class="menu-middle">
+        <a href="">Home</a>
+        <a href="">Services</a>
+        <a href="">Portfolio</a>
+        <a href="">Blogs</a>
+        <a href="">Contact</a>
+      </div>
+
+      <div class="menu-right">
+        <div class="menu-full-close">
+          <i class="fa-solid fa-xmark" id="menu-full-close-btn"></i>
+        </div>
+        <h3>Get in touch</h3>
+        <h4>031 6549 8478</h4>
+        <h4>info@veloxtech.com</h4>
+        <h4>IFZA business park, Dubai</h4>
+      </div>
+    </div>
+
+    <section class="nav-home">
+      <nav id="navbar">
+        <div class="logo">
+          <a href=""><img src="logo.png" alt="" /></a>
+        </div>
+        <ul id="menu" class="menu">
+          <li><a href="">Home</a></li>
+          <li>
+            <a href="#service">services</a>
+            <div class="nav-service-dropdown">
+              <a href="">Web Development</a>
+              <a href="">Search Engine Optimization</a>
+              <a href="">Professional Outsourcing</a>
+              <a href="">Graphic Desiging</a>
+              <a href="">Software Consultancy</a>
+              <a href="">Social Media Marketing</a>
+            </div>
+          </li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+        <img id="toggle-btn" src="menu-white.svg" alt="" />
+      </nav>
+
+      <div id="home">
+        <h1>Leading <span>Digital Marketing Agency</span><br />in Dubai</h1>
+        <h3>Deliver Cutting Edge Solutions for Business Success</h3>
+        <button>Get Started</button>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about-section" class="about-section">
+      <!-- <img src="about.jpg" alt="" id="about-bc-img" /> -->
+      <div class="about-content">
+        <div class="heading">
+          <h2>
+            We want to Bring <br />
+            Business and the Digital <br />
+            World together
+          </h2>
+        </div>
+        <div class="img-desc">
+          <img src="aboutdesc.webp" alt="" />
+          <p>
+            Velox is a leading digital marketing agency solution provider. We
+            specialize in helping businesses establish a strong online presence,
+            drive targeted traffic, and achieve their marketing goals. With our
+            team of skilled professionals. <br /><br /><br /><br />
+
+            We offer a wide range of services, including search engine
+            optimization (SEO), graphic design, social media marketing, web
+            development and more. Our data-driven approach and innovative
+            strategies ensure that our clients receive customized solutions
+            tailored to their specific needs. Partner with Velox to elevate your
+            digital marketing efforts and experience measurable results.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------
+      SERVICE SECTION
+    --------------- -->
+    <section id="service" class="services">
+      <div class="service-box">
+        <h2>Web</h2>
+        <span>Development</span>
+        <p>
+          Web development involves creating and building websites and web
+          applications to provide engaging user experiences and functional
+          solutions
+        </p>
+      </div>
+      <div class="service-box">
+        <h2>Social Media</h2>
+        <span>Marketing</span>
+        <p>
+          Social media marketing leverages social platforms to promote brands,
+          engage with audiences, and drive website traffic and conversions
+        </p>
+      </div>
+      <div class="service-box">
+        <h2>Search Engine</h2>
+        <span>Optimization</span>
+        <p>
+          Search engine optimization (SEO) improves website visibility and
+          organic rankings on search engine result pages for increased online
+          visibility
+        </p>
+      </div>
+      <div class="service-box">
+        <h2>Graphic</h2>
+        <span>Design</span>
+        <p>
+          Graphic design involves creating visually appealing and impactful
+          designs that communicate messages effectively through imagery,
+          typography, and layout
+        </p>
+      </div>
+      <div class="service-box">
+        <h2>Professional</h2>
+        <span>Outsourcing</span>
+        <p>
+          Professional outsourcing involves delegating specific tasks or
+          projects to external experts or companies to enhance efficiency and
+          productivity
+        </p>
+      </div>
+      <div class="service-box">
+        <h2>Software</h2>
+        <span>Consultancy</span>
+        <p>
+          Software consultancy provides expert guidance and advice to businesses
+          in choosing, implementing, and managing software solutions for their
+          specific needs
+        </p>
+      </div>
+    </section>
+
+    <!-- -------
+    PORTFOLIO SECTION
+  --------------- -->
+
+    <section class="portfolio" id="portfolio">
+      <div class="port-heading">
+        <h1>Portfolio</h1>
+        <p>
+          Discover a showcase of our passion and expertise – where ideas come to
+          life and creativity meets functionality. Each project in our portfolio
+          tells a unique story of innovation, design, and a commitment to
+          exceeding expectations
+        </p>
+      </div>
+
+      <div class="port-container">
+        <div class="port-box">
+          <h2>Website Designing</h2>
+        </div>
+        <div class="port-box">
+          <h2>Website Designing</h2>
+        </div>
+        <div class="port-box">
+          <h2>Website Designing</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------
+    LEFT  SLIDER
+      ------------ -->
+
+    <section class="logos">
+      <h1>We worked with Global Largest Brands</h1>
+      <div class="left-slider">
+        <div class="loops-slide-left">
+          <img src="1.png" alt="" />
+          <img src="10.png" alt="" />
+          <img src="9.png" alt="" />
+          <img src="8.png" alt="" />
+          <img src="7.png" alt="" />
+          <img src="11.png" alt="" />
+          <img src="5-1.png" alt="" />
+          <img src="4-2.png" alt="" />
+          <img src="3-1.png" alt="" />
+          <img src="3-2.png" alt="" />
+        </div>
+        <div class="loops-slide-left">
+          <img src="1.png" alt="" />
+          <img src="10.png" alt="" />
+          <img src="9.png" alt="" />
+          <img src="8.png" alt="" />
+          <img src="7.png" alt="" />
+          <img src="11.png" alt="" />
+          <img src="5-1.png" alt="" />
+          <img src="4-2.png" alt="" />
+          <img src="3-1.png" alt="" />
+          <img src="3-2.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- --
+      RIGHT SLIDER
+    --- -->
+
+    <section class="right-slider">
+      <div class="loops-slide-right">
+        <img src="1.png" alt="" />
+        <img src="10.png" alt="" />
+        <img src="9.png" alt="" />
+        <img src="8.png" alt="" />
+        <img src="7.png" alt="" />
+        <img src="11.png" alt="" />
+        <img src="5-1.png" alt="" />
+        <img src="4-2.png" alt="" />
+        <img src="3-1.png" alt="" />
+        <img src="3-2.png" alt="" />
+      </div>
+      <div class="loops-slide-right">
+        <img src="1.png" alt="" />
+        <img src="10.png" alt="" />
+        <img src="9.png" alt="" />
+        <img src="8.png" alt="" />
+        <img src="7.png" alt="" />
+        <img src="11.png" alt="" />
+        <img src="5-1.png" alt="" />
+        <img src="4-2.png" alt="" />
+        <img src="3-1.png" alt="" />
+        <img src="3-2.png" alt="" />
+      </div>
+    </section>
+
+    <!-- ---
+    FAQS
+  ------- -->
+
+    <section class="faqs" id="faqs">
+      <div class="faqs-container">
+        <h1 id="faqs-heading">FAQS</h1>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                What is Digital Marketing?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Digital marketing is a comprehensive strategy leveraging digital
+                channels such as social media, search engines, email, and
+                websites to promote products or services. It involves creating
+                targeted content, optimizing online presence, and employing
+                data-driven techniques to reach and engage with a specific
+                audience. The goal is to drive brand awareness, attract
+                customers, and achieve measurable results in the digital space.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                How much does digital Marketing Cost?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                The cost of digital marketing in the UAE varies widely depending
+                on factors such as the scope of services, the chosen channels,
+                and the goals of the campaign. On average, small to medium-sized
+                businesses might spend a few thousand to tens of thousands of
+                dollars per month. Larger enterprises with extensive campaigns
+                could invest significantly more. It's essential to define your
+                specific objectives and budget constraints when working with
+                digital marketing agencies to get accurate cost estimates for
+                your particular needs in the UAE.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Why select a Digital Marketing agency in Dubai?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Selecting a digital marketing agency in Dubai offers several
+                advantages. These agencies have local market expertise,
+                understanding the cultural nuances and preferences of the
+                diverse Dubai audience. They can tailor strategies to navigate
+                the competitive landscape, ensuring effective use of channels
+                like social media and search engines. Additionally, a
+                Dubai-based agency is likely to be aware of local regulations,
+                optimizing campaigns for compliance and maximizing the impact of
+                digital marketing efforts in the region.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                How can a Digital Marketing Agency improve you Business
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                A digital marketing company can significantly improve your
+                business by: 1- Increasing Online Visibility 2- Driving Targeted
+                Traffic: 3- Boosting Brand Awareness: 4- Enhancing Customer
+                Engagement: 5- Generating Quality Leads:
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive"
+                aria-expanded="false"
+                aria-controls="flush-collapseFive"
+              >
+                What make Redberries the best choice for Digital Marketing in
+                Dubai
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Like a fine wine, the knowledgeable staff of VeloxTech, a
+                digital marketing agency in the UAE, is hand-picked. You can be
+                confident that only the most skilled and knowledgeable digital
+                marketers will be able to handle your promotions and business.
+                We combine sophisticated technological solutions with tasteful,
+                traditional strategies and creative thinking. Our family of
+                employees is not our greatest asset. We still breathe digital
+                and strive to be better than we were the day before. We are a
+                favored digital marketing agency in Dubai because of this.
+                Partners in digital agencies in the UAE assist customers in
+                achieving their business objectives and provide a range of
+                services, such as SEOs for products and e-commerce businesses,
+                Google AdWords solutions for social media and all platforms, and
+                more.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----
+      TESTIMONIAL Swiper 
+      --------->
+
+    <section class="testimonials" id="testimonials">
+      <div class="tes-heading">
+        <h1 class="text-center">Testimonials</h1>
+        <p class="text-center">
+          Satisfied Customers Speak Highly of Our Reliable and Professional
+          Approach
+        </p>
+      </div>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <p>
+              <i
+                >The Web development services provided by velox exceeded my
+                expectations. They created a visually stunning and user-friedly
+                website that perfectly represents my brand. Highly
+                recommended</i
+              >
+            </p>
+            <div class="profile">
+              <img src="man11.jpg" alt="" />
+              <h3>Atta Ur Rehman</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p>
+              <i>
+                The Web development services provided by velox exceeded my
+                expectations. They created a visually stunning and user-friedly
+                website that perfectly represents my brand. Highly recommended
+              </i>
+            </p>
+            <div class="profile">
+              <img src="man33.png" alt="" />
+              <h3>Phillips</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p>
+              <i>
+                The Web development services provided by velox exceeded my
+                expectations. They created a visually stunning and user-friedly
+                website that perfectly represents my brand. Highly recommended
+              </i>
+            </p>
+            <div class="profile">
+              <img src="man44.jpg" alt="" />
+              <h3>Nick Fury</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p>
+              <i>
+                The Web development services provided by velox exceeded my
+                expectations. They created a visually stunning and user-friedly
+                website that perfectly represents my brand. Highly recommended
+              </i>
+            </p>
+            <div class="profile">
+              <img src="man33.png" alt="" />
+              <h3>Vin Diesel</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p>
+              <i>
+                The Web development services provided by velox exceeded my
+                expectations. They created a visually stunning and user-friedly
+                website that perfectly represents my brand. Highly recommended
+              </i>
+            </p>
+            <div class="profile">
+              <img src="man11.jpg" alt="" />
+              <h3>Tom Cruise</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p>
+              <i>
+                The Web development services provided by velox exceeded my
+                expectations. They created a visually stunning and user-friedly
+                website that perfectly represents my brand. Highly recommended
+              </i>
+            </p>
+            <div class="profile">
+              <img src="man44.jpg" alt="" />
+              <h3>Downy Jr</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p>
+              <i>
+                The Web development services provided by velox exceeded my
+                expectations. They created a visually stunning and user-friedly
+                website that perfectly represents my brand. Highly recommended
+              </i>
+            </p>
+            <div class="profile">
+              <img src="man44.jpg" alt="" />
+              <h3>Gerald Buttler</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-----
+      BLOGS Swiper
+    ------- -->
+
+    <section class="blogs" id="blogs">
+      <div class="blogs-heading">
+        <h1 class="text-center">Our Blogs</h1>
+      </div>
+
+      <div class="swiper blog-mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="blog1.png" alt="" />
+
+            <p class="blog-date">27/01/24</p>
+
+            <p class="blog-title">
+              What is Topical Authority in SEO and how is works?
+            </p>
+
+            <a href="" class="blog-btn"
+              >Read More<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="swiper-slide">
+            <img src="blog1.png" alt="" />
+
+            <p class="date">27/01/24</p>
+
+            <p class="blog-title">
+              What is Topical Authority in SEO and how is works?
+            </p>
+
+            <a href="" class="blog-btn"
+              >Read More<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="swiper-slide">
+            <img src="blog2.png" alt="" />
+
+            <p class="date">27/01/24</p>
+
+            <p class="blog-title">
+              What is Topical Authority in SEO and how is works?
+            </p>
+
+            <a href="" class="blog-btn"
+              >Read More<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="swiper-slide">
+            <img src="blog3.jpg" alt="" />
+            <p class="date">27/01/24</p>
+            <p class="blog-title">
+              What is Topical Authority in SEO and how is works?
+            </p>
+
+            <a href="" class="blog-btn"
+              >Read More<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="swiper-slide">
+            <img src="blog4.png" alt="" />
+
+            <p class="date">27/01/24</p>
+
+            <p class="blog-title">
+              What is Topical Authority in SEO and how is works?
+            </p>
+
+            <a href="" class="blog-btn"
+              >Read More<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="blog3.jpg" alt="" />
+
+            <p class="date">27/01/24</p>
+
+            <p class="blog-title">
+              What is Topical Authority in SEO and how is works?
+            </p>
+
+            <a href="" class="blog-btn"
+              >Read More<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-------
+       CONTACT
+      ------- -->
+
+    <section class="contact" id="contact">
+      <div class="contact-left">
+        <h1>Get Started Now</h1>
+        <p>
+          If you would like to work with us or just want to get in touch, we’d
+          love to hear from you!
+        </p>
+      </div>
+      <div class="contact-right">
+        <form action="">
+          <div class="flex-input">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+          </div>
+          <div class="flex-input">
+            <input type="phone" placeholder="Your Number" />
+            <select name="service" id="service">
+              <option value="Web Development">Web Development</option>
+              <option value="Web Development">
+                Search Engine Optimization
+              </option>
+              <option value="Web Development">Graphic Designing</option>
+            </select>
+          </div>
+          <textarea
+            name=""
+            id=""
+            placeholder="Message"
+            cols=""
+            rows="4"
+          ></textarea>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer" id="footer">
+      <div class="footer-column">
+        <img src="logo.png" alt="" />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
+          adipisci perspiciatis laboriosam qui deserunt iusto rerum optio ex
+          porro officia?
+        </p>
+        <div class="social-links">
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""> <i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h2>Services</h2>
+        <a href="">Web Development</a>
+        <a href="">Graphic Designing</a>
+        <a href="">Search Engine Optimization</a>
+        <a href="">Social Media Marketing</a>
+        <a href="">Professional Outsourcing</a>
+        <a href="">Software Consultany</a>
+      </div>
+
+      <div class="footer-column">
+        <h2>Quick links</h2>
+        <a href="">Home</a>
+        <a href="">Portfolio</a>
+        <a href="">Blogs</a>
+        <a href="">Contact</a>
+      </div>
+
+      <div class="footer-column">
+        <h2>Get in touch</h2>
+        <a href=""><i class="fa-solid fa-phone"></i>032151651551</a>
+        <a href=""
+          ><i class="fa-solid fa-envelope"></i>info@veloxtechatgmail.com</a
+        >
+        <a href=""
+          ><i class="fa-solid fa-location-dot"></i>Suite 686 22125 Deckow Park,
+          South Cesar, NV 92781</a
+        >
+      </div>
+
+      <div class="footer-column">
+        <h2>Newsletter</h2>
+        <div id="footer-input-btn">
+          <input type="text" />
+          <button>Send</button>
+        </div>
+        <img id="newsletter-img" src="trustpilot.png" alt="" />
+      </div>
+    </section>
+
+    <!-- BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <!-- GSAP -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+      integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="swiper.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
